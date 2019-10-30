@@ -84,6 +84,7 @@ matrix:
     #   - ATLAS=None
     - os: linux-ppc64le
       python: 3.6
+      arch: ppc64le
       env:
        # for matrix annotation only
        - PPC64_LE=1
